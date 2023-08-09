@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leap Year</title>
+</head>
+<body>
+<script>
+	let year = prompt("Enter a year");
+	if (year % 4 == 0) {
+		if (year % 100 == 0) {
+			if (year % 400 == 0) {
+				document.write("Is a leap year");
+			} else {
+				document.write("Is not a leap year");
+			}
+		} else {
+			document.write("Is a leap year");
+		}
+	} else {
+		document.write("Is a not leap year");
+		
+	}
+</script>
+
+</body>
+</html>
